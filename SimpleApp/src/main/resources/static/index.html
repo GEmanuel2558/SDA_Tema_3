@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/network/network_helper.js" type="module" async></script>
+    <script src="js/events/event_helper.js" type="module" async></script>
+</head>
+<body>
+<header>
+    <h1>Exersarea operatiunilor CRUD</h1>
+    <section id="section-display-all">
+        <fieldset>
+            <legend id="section-display-all-legend">All the records from the DB:</legend>
+        </fieldset>
+    </section>
+</header>
+<main>
+    <section id="section-insert-new-date">
+        <fieldset>
+            <legend id="section-display-all-legend">Insert new value</legend>
+            <table>
+                <tbody>
+                <tr>
+                    <td>First name:</td>
+                    <td>Last name:</td>
+                    <td>email:</td>
+                    <td>age:</td>
+                </tr>
+                <tr>
+                    <td><input id="input-first-name" type="text" name="firstName"/></td>
+                    <td><input id="input-last-name" type="text" name="lastName"/></td>
+                    <td><input id="input-email" type="text" name="e-mail"/></td>
+                    <td><input id="input-age" type="number" name="age"/></td>
+                    <td><button id="submit-new-user-button">Create new user</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </section>
+</main>
+</body>
+</html>
